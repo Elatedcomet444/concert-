@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>
+            contact
+        </title>
+        <style>
+            *{
+    margin:0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.i{
+    background-color: rgb(9, 3, 3);
+height:100px;
+width:100%;
+
+
+}
+.i1{
+    padding-left: 30px;
+padding-top:20px ;
+padding-bottom:11px;
+font-size: xx-large;
+
+}
+h2{
+    color:beige;
+    
+}
+.i2{
+    padding-left:30px;
+    
+    
+}
+p{
+    margin: 20px;
+}
+.b1{
+    border:none;
+    background-color:rgb(179, 25, 203);
+    padding:15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:4px 2px;
+    cursor: pointer;
+    height:50px;
+    width:150px;
+    color:white;
+    border-radius:5px;
+
+}
+.b{
+    margin-top:30px;  
+    margin-left:50px
+}
+
+
+
+        </style>
+    </head>
+    <body>
+        <div CLASS="i"> <h2 class="i1">CONTACT US</h2></div><br>
+        <br>
+    <div class="i2">
+        <p><h3>purebliss@gmail.com</h3></p>
+        <p><h3>PH NO:7569142832</h3></p>
+        <p><h3>follow us on instagram PURE_BLISS</h3></p>
+        <p><h3>facebook PURE_BLISS</h3></p>
+        </div>
+        </div>
+        <div class="b">
+            <button class="b1">
+                home
+            </button>
+        </div>
+        </body>
+
+</html>

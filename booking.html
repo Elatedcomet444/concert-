@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Booking</title>
+    <link rel="stylesheet" href="booking,css.css">
+    <script>
+    function validation(formid){
+   
+        //perform your validations
+        if (valid)
+            $("#formid").submit();
+        else
+           alert("Validation error");
+        } 
+    </script>
+</head>
+<body>
+    <div class="e">
+        ENJOY YOUR CONCERT
+    </div>
+    <div class="form">
+        <form action="thankyou.html">
+            <input type="text" placeholder="enter name" name="name" reguired><br><br>
+            <input type="email" placeholder="email" name="emil" required><br><br>
+            <input type="number" placeholder="age" min="15" required><br><br>
+            <input type="tel" id="pin" name="pin" placeholder="pincode" maxlength="6" minlength="6" required size="12"><br><br>
+            <select >
+                <option value="" disabled selected>Select country</option>>
+
+                </option>
+                <option>
+                    CANADA
+                </option>
+                <option>
+                     INDIA
+                </option>
+                <option>
+                     NEW YORK
+                </option>
+                <option>
+                     NEW JERSEY
+                </option>
+                <option> 
+                    SOUTH KOREA
+                </option>
+                
+            </select><br><br>
+            Payment:<br><br>
+            <input type="radio" name="payment" id="upi"> UPI<br><br>
+            <input type="radio" name="payment" id="credit card"> Credit Card<br><br>
+            <input type="radio" name="payment" id="debit card"> Debit Card<br><br>
+            <input type="radio" name="payment" id="netbanking"> Net Banking<br><br>
+            <br><br>
+          
+            <input type="submit" class="button" onClick="validate('myform')" value="submit"> 
+            
+        </form>
+    </div>
+</body>
+</html>

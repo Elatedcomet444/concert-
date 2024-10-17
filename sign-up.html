@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+function matchpass(){
+var firstpassword=document.f1.password.value;
+var secondpassword=document.f1.password2.value;
+
+if(firstpassword==secondpassword){
+return true;
+}
+else{
+alert("password must be same!");
+return false;
+}
+}
+
+function validation(formid){
+   
+        //perform your validations
+        if (valid)
+            $("#formid").submit();
+        else
+           alert("Validation error");
+        } 
+</script>  
+<style>
+    .f1{
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             margin-top:50px;
+            margin-left:350px;
+            margin-right: 350px;
+            border:2px solid black;
+            border-radius:10px;
+        }
+     .g{
+        font-size: larger;
+        font-weight:600px;
+        justify-content: center;
+
+     }   
+     input{
+        border-radius: 5px;
+        height: 25px;
+        margin-top:15px;
+     }
+     .i{
+        display:inline-block;
+        margin-top:30px;
+     }
+     .button{
+        margin:10px;
+        border:none;
+        background-color:rgb(138, 28, 105);
+        padding:15px 32px;
+        color:white;
+        text-align:center;
+        text-decoration:none;
+        display:inline-block;
+        font-size:16px;
+        margin:4px 2px;
+        cursor:pointer;
+        margin-left:50px;
+        border-radius:4px;
+        height:fit-content;
+        margin-bottom: 15px;
+        }
+        button a{
+        text-decoration:none;
+        color:black;
+        }
+     a{
+      text-decoration: none;
+     }
+</style>
+<body>
+<div class="f1">
+   
+   
+<form name="f1"  onsubmit="return matchpass()"  id="myform" action="front_page.html"> 
+   <h2><p class="g">Sign-Up</p> </h2>
+<input type="emil" placeholder="email" required  size="30" ><br><br>
+<input type="password" name="password" placeholder="Password" size="30" required><br><br>
+<input type="password" name="password2" placeholder="Re-enter Password " size="30"required><br><br>
+<div class="i"></div>
+<h3>alredy a user?<a href="login.html"> log in</a></h3><br><br>
+<input type="submit" class="button" onClick="validate('myform')" value="submit"> 
+</form>
+</div>
+</form>
+</div>
+
+</body>
+</html>
+
+ 

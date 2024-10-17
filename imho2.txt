@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  position: relative;
+  width: 50%;
+  margin:300px;
+  color:white;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.4;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #d2106e;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.bottom-left{
+  position:absolute;
+  bottom:8px;
+  left:16px;
+  font-size: xx-large;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="container">
+  <img src="bad bunny.jpeg"  class="image" style="width:100%">
+  <div class="bottom-left"><pre>
+date:6/12/12
+bad bunny
+live
+</pre></div>
+  <div class="middle">
+    <div class="text">BUY<a href="booking.html"></a></div>
+  </div>
+</div>
+  
+</body>
+</html>

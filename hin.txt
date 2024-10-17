@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+hindi concert
+</title>
+<link rel="stylesheet" href="concert.css">
+</head>
+<body>
+
+<div class="c">
+<b><i>HINDI CONCERTS</i><b>
+</div>
+
+<div class="d">
+<div class="d1">
+<div class="d11">
+<img src=" kk.jpg" >
+</div>
+<div class="d12">
+<p><b> NAME:KK</p>
+<p>DATE:01/12/2022</p>
+<p>COST:RS.10,000</b></p>
+<a href="concert-reg.html"><button class="button button1" > BOOK NOW</button></a>
+</div>
+</div>
+
+<div class="d2">
+<div class="d21">
+<img src="shreya-hindi.jpg">
+</div>
+<div class="d22">
+<p><b> NAME:SHREYA GHOSHAL</p>
+<p>DATE:02/12/2022</p>
+<p>COST:RS.15,000</b></p>
+<a href="concert-reg.html"><button class="button button1" > BOOK NOW</button></a>
+</div>
+</div>
+
+
+<div class="d3">
+<div class="d31">
+<img src="arjit-hin.jpg">
+</div>
+<div class="d32">
+<p><b> NAME:ARJIT SINGH</p>
+<p>DATE:03/12/2022</p>
+<p>COST:RS.20,000</b></p>
+<a href="concert-reg.html"><button class="button button1" > BOOK NOW</button></a>
+</div>
+</div>
+
+<div class="d4">
+<div class="d41">
+<img src="armaan-hindi.jpg">
+</div>
+<div class="d42">
+<p><b> NAME:ARMAAN MALIK</p>
+<p>DATE:01/12/2022</p>
+<p>COST:RS.20,000</b></p>
+<a href="booking.html"><button class="button button1" > BOOK NOW</button></a>
+</div>
+</div>
+
+<div class="d5">
+<div class="d51">
+<img src=" badshah-hindi.jpg">
+</div>
+<div class="d52">
+<p><b> NAME:BADSHAH</p>
+<p>DATE:02/12/22</p>
+<p>COST:RS.25,000</b></p>
+<a href="booking.html"><button class="button button1" > BOOK NOW</button></a>
+</div>
+</div>
+
+<div class="d6">
+<div class="d61">
+<img src="sisters.jpg">
+</div>
+<div class="d62">
+<p><b> NAME:KAKKAR SISTERS</p>
+<p>DATE:03/12/22</p>
+<p>COST:RS.15,000</b></p>
+<a href="booking.html"><button class="button button1" > BOOK NOW</button></a>
+</div>
+</div>
+</div>
+<div class="home">
+    <button class="home1" >
+       <a href="front_page.html">HOME</a> 
+    </button>
+    </div>
+</body>
+</html>
+

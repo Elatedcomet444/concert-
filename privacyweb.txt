@@ -1,0 +1,47 @@
+<html>
+<head>
+        <h1>WELCOME TO PUREBLISS PRIVACY PAGE</h1>
+</head>
+<style>
+    p{
+        font-size:x-large
+    }
+    .h2{
+        font-size:larger;
+        background-color:black;
+        color:white;
+    }
+    .b1{
+    border:none;
+    background-color:rgb(179, 25, 203);
+    padding:15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin:4px 2px;
+    cursor: pointer;
+    height:50px;
+    width:150px;
+    color:white;
+    border-radius:5px;
+
+}
+.b{
+    margin-top:50px;  
+    margin-left:50px}
+</style>
+<body>
+    <div class="a">
+    <h2>This is our donot sell my personal information request portal</h2></div>
+    <p>->As a country resident,you have the right to opt out of the sale of your personal information.to opt put of sales,please use the form given in our gmail or facebook accounts.</p>
+    <p>->For more information about how we handle your personal information,including how to access or delete the information,please review our privacy policy provided in our mail and instagram accounts.
+
+    </p>
+    <div class="b">
+        <button class="b1">
+            home
+        </button>
+        </div>
+</body>
+</html>
